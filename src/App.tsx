@@ -1,18 +1,25 @@
-function App() {
+import { DashboardLayout } from "@/components/layout/DashboardLayout";
 
-  return (
 
-    <div className="flex h-screen items-center justify-center">
+function App(){
 
-      <h1 className="text-4xl font-bold text-blue-600">
+return (
 
-        Nexus Analytics Dashboard 🚀
+<DashboardLayout>
 
-      </h1>
+<h1 className="
+text-4xl
+font-bold
+">
 
-    </div>
+Welcome to Nexus Analytics 🚀
 
-  );
+</h1>
+
+
+</DashboardLayout>
+
+)
 
 }
 
