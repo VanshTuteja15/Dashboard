@@ -1,4 +1,5 @@
 import { DashboardLayout } from "@/components/layout/DashboardLayout";
+import { DashboardPage } from "@/features/dashboard/DashboardPage";
 
 
 function App(){
@@ -7,15 +8,7 @@ return (
 
 <DashboardLayout>
 
-<h1 className="
-text-4xl
-font-bold
-">
-
-Welcome to Nexus Analytics 🚀
-
-</h1>
-
+<DashboardPage/>
 
 </DashboardLayout>
 
